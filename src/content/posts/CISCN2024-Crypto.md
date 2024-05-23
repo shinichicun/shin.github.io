@@ -12,7 +12,7 @@ draft: false
 
 经典差一点。。。难绷
 
-![image-20240519202858861](CISCN2024-Crypto/image-20240519202858861.png)
+![image-20240519202858861](assets/image-20240519202858861.png)
 
 ## OvO
 
@@ -188,11 +188,11 @@ output = key.export_key(passphrase=passphrase).split(b'\n')
 
 翻一下export_key的源代码，发现加密的位置在这：
 
-![image-20240519203812924](CISCN2024-Crypto/image-20240519203812924.png)
+![image-20240519203812924](assets/image-20240519203812924.png)
 
 查看此处函数的源代码：
 
-![image-20240519203919740](CISCN2024-Crypto/image-20240519203919740.png)
+![image-20240519203919740](assets/image-20240519203919740.png)
 
 对该函数的解释：
 
@@ -508,6 +508,6 @@ b'flag{bdb537aa-87ef-4e95-bea4-2f79259bdd07}'
 
 这个方法还是听鸡块师傅才知道的。
 
-![image-20240519235534408](CISCN2024-Crypto/image-20240519235534408.png)
+![image-20240519235534408](assets/image-20240519235534408.png)
 
 不过按自己的理解去造了下，没出结果（后面听别的佬说有类似的题，但这周没空接着整了，有空就接着写这部分）
